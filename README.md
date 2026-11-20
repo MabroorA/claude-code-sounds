@@ -23,6 +23,8 @@ claude plugin marketplace add MabroorA/claude-code-sounds
 claude plugin install sounds@sound-effects-ai
 ```
 
+Installed from a terminal, it starts with `glimmet` at volume 70. Pick another pack with `/plugin configure sounds@sound-effects-ai` in Claude Code.
+
 ## When it plays
 
 | Moment | When | Claude Code event |
@@ -46,7 +48,7 @@ Every hook runs in the background (`async`), prints nothing and always exits cle
 
 ## Settings
 
-Open `/config` and find the Sounds options:
+Open `/config` and find the Sounds options, or run `/plugin configure sounds@sound-effects-ai`:
 
 - **Sound pack**: `glimmet`, `arcade` or `quiet`.
 - **Volume**: 0 to 100. 0 is silent.
