@@ -1,0 +1,82 @@
+{
+  "cesp_version": "1.0",
+  "name": "quiet",
+  "display_name": "Quiet",
+  "version": "1.0.0",
+  "description": "Original soft wood and glass notes for open offices and late nights. Made with Sound Effects AI.",
+  "author": {
+    "name": "Sound Effects AI",
+    "github": "MabroorA"
+  },
+  "license": "CC-BY-4.0",
+  "language": "en",
+  "homepage": "https://www.sound-effects-ai.com/tools/claude-code-sounds",
+  "preview": "preview.mp3",
+  "tags": [
+    "original",
+    "calm",
+    "minimal",
+    "office"
+  ],
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/done-1.wav",
+          "label": "Felt piano",
+          "sha256": "f064d5f0a9f19ce6945ab66bf00abb296de1cb66b2193a8619c6c5c1e5fa924b"
+        },
+        {
+          "file": "sounds/done-2.wav",
+          "label": "Glass bell",
+          "sha256": "4f14bf43dc444b0000259b488a1b3d5fb888c86aa2c3246fb4e0315dc079b327"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/needs-you.wav",
+          "label": "Two glass notes",
+          "sha256": "55c3ec135adaf9581c3d3d300533fd582247f513528346cd3adfc99622039b82"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/error.wav",
+          "label": "Low marimba",
+          "sha256": "9287030003ec67f3ac0b31589a5d3627d933c0ba496a28eccd47c3cedd15603a"
+        }
+      ]
+    },
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/start.wav",
+          "label": "Rising marimba",
+          "sha256": "2f0d45322c56199692821b76a29971751febc17b8850aeef43decd2e91ca9867"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/got-it.wav",
+          "label": "Wood knock",
+          "sha256": "5578845036e443714ccf374b942938ee845bfc0949d8f3c8b54e87ffdc303824"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/full.wav",
+          "label": "Falling notes",
+          "sha256": "c15a7c966450b86cbf3304bc5d9ba4aff8c8ea414cb961289ced6c9de50a30c5"
+        }
+      ]
+    }
+  }
+}

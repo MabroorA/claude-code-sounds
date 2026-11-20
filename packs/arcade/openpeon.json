@@ -1,0 +1,82 @@
+{
+  "cesp_version": "1.0",
+  "name": "arcade",
+  "display_name": "Arcade",
+  "version": "1.0.0",
+  "description": "Original retro arcade blips: a point when work is done, a lost life on an error. Made with Sound Effects AI.",
+  "author": {
+    "name": "Sound Effects AI",
+    "github": "MabroorA"
+  },
+  "license": "CC-BY-4.0",
+  "language": "en",
+  "homepage": "https://www.sound-effects-ai.com/tools/claude-code-sounds",
+  "preview": "preview.mp3",
+  "tags": [
+    "original",
+    "retro",
+    "arcade",
+    "8-bit"
+  ],
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/done-1.wav",
+          "label": "Point",
+          "sha256": "2f4baf359855c9dca3b9c34bf6af3c38c4faf321df3c6633393912c68e2f0c46"
+        },
+        {
+          "file": "sounds/done-2.wav",
+          "label": "Level clear",
+          "sha256": "175b0c726a7a9a874c9b432ad59bfbf2b2ebc807eea62b82795117ad8fce80f3"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/needs-you.wav",
+          "label": "Alert blips",
+          "sha256": "bc2067d14e953686e36f83b4d27aaeaf53fde3709cf682dd9fe3a1d05e1bdc46"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/error.wav",
+          "label": "Life lost",
+          "sha256": "5f88cbfd57efe00780a57e844ff563990a52ad7523ecfc724d8908f23d56d825"
+        }
+      ]
+    },
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/start.wav",
+          "label": "Game start",
+          "sha256": "ce21acd8009643e95d9cb2f6067df2f6d0675e3837d076d900cf082edb40d930"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/got-it.wav",
+          "label": "Paddle blip",
+          "sha256": "6af1d12724bd26d21dff2b0d89277d683742c5595f024b6d8388660665afa0fa"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/full.wav",
+          "label": "Game over",
+          "sha256": "b2b19eaa2753e8421d766fb6918c5cbb8de590dd76538fc3a7492170d1d95afc"
+        }
+      ]
+    }
+  }
+}

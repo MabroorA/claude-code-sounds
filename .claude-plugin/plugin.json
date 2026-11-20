@@ -1,0 +1,41 @@
+{
+  "name": "sounds",
+  "displayName": "Sounds",
+  "version": "1.0.0",
+  "description": "Hear when Claude is done, needs your OK or hits an error. Three original sound packs, or your own sounds.",
+  "author": {
+    "name": "Sound Effects AI",
+    "url": "https://www.sound-effects-ai.com"
+  },
+  "homepage": "https://www.sound-effects-ai.com/tools/claude-code-sounds",
+  "repository": "https://github.com/MabroorA/claude-code-sounds",
+  "license": "MIT",
+  "keywords": ["sounds", "sound effects", "notifications", "hooks", "audio", "alerts"],
+  "icon": "./icon.png",
+  "documentationUrl": "https://www.sound-effects-ai.com/tools/claude-code-sounds",
+  "supportUrl": "https://www.sound-effects-ai.com/contact",
+  "privacyPolicyUrl": "https://www.sound-effects-ai.com/privacy",
+  "termsOfServiceUrl": "https://www.sound-effects-ai.com/terms",
+  "userConfig": {
+    "pack": {
+      "type": "string",
+      "title": "Sound pack",
+      "description": "glimmet: a cave critter that chirps. arcade: retro blips. quiet: soft wood and glass notes.",
+      "options": ["glimmet", "arcade", "quiet"],
+      "default": "glimmet"
+    },
+    "volume": {
+      "type": "number",
+      "title": "Volume",
+      "description": "0 is silent, 100 is full volume.",
+      "min": 0,
+      "max": 100,
+      "default": 70
+    },
+    "own_sounds": {
+      "type": "directory",
+      "title": "Your own sounds (optional)",
+      "description": "A folder of WAV files named after the moment: done, needs-you, error, start, got-it, full. Leave it empty to use the pack."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "sound-effects-ai",
+  "owner": {
+    "name": "Sound Effects AI",
+    "url": "https://www.sound-effects-ai.com"
+  },
+  "description": "Free sound packs for Claude Code, made with Sound Effects AI.",
+  "plugins": [
+    {
+      "name": "sounds",
+      "source": "./",
+      "description": "Hear when Claude is done, needs your OK or hits an error. Three original sound packs, or your own sounds.",
+      "category": "productivity",
+      "tags": ["sounds", "notifications", "hooks", "audio"]
+    }
+  ]
+}

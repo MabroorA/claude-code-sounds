@@ -1,0 +1,82 @@
+{
+  "cesp_version": "1.0",
+  "name": "glimmet",
+  "display_name": "Glimmet",
+  "version": "1.0.0",
+  "description": "An original cave critter that chirps, trills and yawns for your coding agent. Made with Sound Effects AI.",
+  "author": {
+    "name": "Sound Effects AI",
+    "github": "MabroorA"
+  },
+  "license": "CC-BY-4.0",
+  "language": "en",
+  "homepage": "https://www.sound-effects-ai.com/tools/claude-code-sounds",
+  "preview": "preview.mp3",
+  "tags": [
+    "original",
+    "character",
+    "creature",
+    "cute"
+  ],
+  "categories": {
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/done-1.wav",
+          "label": "Happy trill",
+          "sha256": "1939d1192a5e91e593d1ab13f30464f3e82bd0b2c5b45266615d598378c6d9da"
+        },
+        {
+          "file": "sounds/done-2.wav",
+          "label": "Proud purr",
+          "sha256": "f8bbb260595a5d845bcba010ad51e925dd3d831f1119cd00dd698c6ec30a07bb"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/needs-you.wav",
+          "label": "Asks for you",
+          "sha256": "cc8eadf5799fdfeb3ebd8f4b6b407bd0df99c21f86aa179ee43c1deeb86e58a1"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/error.wav",
+          "label": "Startled squeak",
+          "sha256": "669734269b0a3291db498fd847250a0ad7c9f68c61b5037989e72ee1309e87ca"
+        }
+      ]
+    },
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/start.wav",
+          "label": "Wakes up with a chirp",
+          "sha256": "58c3067b96dbb2647f70d0946e4ba38b1c36c8ca639b3605146131fe668a129a"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/got-it.wav",
+          "label": "Ears flick up",
+          "sha256": "eb0f76dac2ff779635e2930a06b1b04d8a9a81fa933f15be4f96034dd4b4ad09"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/full.wav",
+          "label": "Sleepy yawn",
+          "sha256": "8023544a1938eb0a5ab182f21326f4574a4322880c8df664be7f9ac238892b69"
+        }
+      ]
+    }
+  }
+}
