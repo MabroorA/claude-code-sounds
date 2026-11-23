@@ -64,7 +64,35 @@ Put WAV files in a folder and choose it as **Your own sounds** in `/config`. Nam
 
 Give a moment two or more files (`done-1.wav`, `done-2.wav`) and they take turns. A moment without a file of its own keeps the pack's sound. The plugin also understands `win`, `lose`, `click`, `confirm`, `roar`, `call`, `hurt` and `death`, so sound sets from game tools work as they are. MP3 works on macOS and Windows; use WAV on Linux.
 
-Make your own sounds from a few words at [Sound Effects AI](https://www.sound-effects-ai.com/text-sound).
+Make a whole pack from any character (a goose, a tired wizard, your game's hero) at [Sound Effects AI](https://www.sound-effects-ai.com/tools/claude-code-sounds), or single sounds from a few words.
+
+## Your week in numbers
+
+`/sounds:recap` shows a post-match screen for your last 7 days with Claude Code: tasks it finished, errors, your longest win streak, how long it was busy and how long it sat waiting for you. `/sounds:recap 1` does today.
+
+```
+  POST-MATCH · my week with claude code
+  28 sessions · 181 things asked · 7,542 tool calls · last 7 days
+
+  ┌────────────────────┬────────────────────┬────────────────────┐
+  │ WINS               │ DEFEATS            │ LONGEST STREAK     │
+  │ 180                │ 1                  │ 31                 │
+  │ tasks it finished  │ +2 i stopped       │ wins in a row      │
+  ├────────────────────┼────────────────────┼────────────────────┤
+  │ CLAUDE WAS BUSY    │ IT WAITED FOR ME   │ LONGEST TASK       │
+  │ 36 h 31 m          │ 8 h 34 m           │ 1 h 42 m           │
+  │ working            │ 108 times          │ in one task        │
+  └────────────────────┴────────────────────┴────────────────────┘
+```
+
+It counts from Claude Code's own session logs on your computer: who spoke and when. It looks at how each message starts only to tell what you typed from notes the app adds, and never prints, saves or sends any of it.
+
+Without the plugin, it's one file that needs only Node:
+
+```bash
+curl -sO https://raw.githubusercontent.com/MabroorA/claude-code-sounds/main/scripts/post-match.mjs
+node post-match.mjs
+```
 
 ## Works on
 

@@ -9,7 +9,7 @@
     {
       "name": "sounds",
       "source": "./",
-      "description": "Hear when Claude is done, needs your OK or hits an error. Three original sound packs, or your own sounds.",
+      "description": "Hear when Claude is done, needs your OK or hits an error, and see your week with Claude in numbers. Three original sound packs, or your own sounds.",
       "category": "productivity",
       "tags": ["sounds", "notifications", "hooks", "audio"]
     }

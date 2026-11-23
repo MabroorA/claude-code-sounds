@@ -1,8 +1,8 @@
 {
   "name": "sounds",
   "displayName": "Sounds",
-  "version": "1.0.0",
-  "description": "Hear when Claude is done, needs your OK or hits an error. Three original sound packs, or your own sounds.",
+  "version": "1.1.0",
+  "description": "Hear when Claude is done, needs your OK or hits an error, and see your week with Claude in numbers. Three original sound packs, or your own sounds.",
   "author": {
     "name": "Sound Effects AI",
     "url": "https://www.sound-effects-ai.com"
